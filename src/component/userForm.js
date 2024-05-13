@@ -29,21 +29,30 @@ const UserForm = ({ visible, onCancel, onFinish, initialValues }) => {
         <Form.Item
           name="accountNumber"
           label="Nomor Akun"
-          rules={[{ required: true, message: "Nomor Akun wajib diisi!" }]}
+          rules={[
+            { required: true, message: "Nomor Akun wajib diisi!" },
+            { pattern: /^[0-9]+$/, message: 'Nomor Telepon harus berupa angka!' }
+          ]}
         >
           <Input />
         </Form.Item>
         <Form.Item
           name="emailAddress"
           label="Email"
-          rules={[{ required: true, message: "Email wajib diisi!" }]}
+          rules={[
+            { required: true, message: "Email wajib diisi!" },
+            { type: 'email', message: 'Format email tidak valid!' }
+          ]}
         >
           <Input />
         </Form.Item>
         <Form.Item
           name="phoneNumber"
           label="Nomor Telepon"
-          rules={[{ required: true, message: "Nomor Telepon wajib diisi!" }]}
+          rules={[
+            { required: true, message: "Nomor Telepon wajib diisi!" },
+            { pattern: /^[0-9]+$/, message: 'Nomor Telepon harus berupa angka!' }
+          ]}
         >
           <Input />
         </Form.Item>
