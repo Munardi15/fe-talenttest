@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fe-talenttest/static/css/main.49b7f8c1.css",
+    "main.js": "/fe-talenttest/static/js/main.a3accd26.js",
+    "static/js/453.48a6cf8b.chunk.js": "/fe-talenttest/static/js/453.48a6cf8b.chunk.js",
+    "index.html": "/fe-talenttest/index.html",
+    "main.49b7f8c1.css.map": "/fe-talenttest/static/css/main.49b7f8c1.css.map",
+    "main.a3accd26.js.map": "/fe-talenttest/static/js/main.a3accd26.js.map",
+    "453.48a6cf8b.chunk.js.map": "/fe-talenttest/static/js/453.48a6cf8b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49b7f8c1.css",
+    "static/js/main.a3accd26.js"
+  ]
+}
